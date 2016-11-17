@@ -1,0 +1,24 @@
+{
+  "name": "sc-framework-health-check",
+  "version": "1.0.0",
+  "description": "Health check plugin for SocketCluster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SocketCluster/sc-framework-health-check.git"
+  },
+  "keywords": [
+    "socketcluster",
+    "health",
+    "check"
+  ],
+  "author": "Jonathan Gros-Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SocketCluster/sc-framework-health-check/issues"
+  },
+  "homepage": "https://github.com/SocketCluster/sc-framework-health-check"
+}

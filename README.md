@@ -1,2 +1,2 @@
 # sc-framework-health-check
-Health check plugin for SocketCluster
+Health check plugin for SocketCluster.
