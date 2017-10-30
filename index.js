@@ -9,7 +9,7 @@ module.exports.attach = function (worker, expressApp) {
   expressApp.get('/health-check', function (req, res) {
 
     // Check that all brokers are working
-    worker.exchange.run(healthCheckQueryFn, function (err, data) {
+    worker.exchange.exec(healthCheckQueryFn, function (err, data) {
       if (err) {
         res.status(500).send('Failed');
       } else {
